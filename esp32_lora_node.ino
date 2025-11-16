@@ -12,7 +12,7 @@
 #include <Wire.h>
 #include <Adafruit_BME680.h>
 #include <TinyGPS++.h>
-#include <HardwareSerial.h>
+#include <SoftwareSerial.h>
 
 // LoRa pins for Heltec LoRa32 V3
 #define LORA_SCK 9
